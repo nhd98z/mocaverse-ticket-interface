@@ -6,11 +6,11 @@ import { WagmiProvider } from 'wagmi'
 import { mainnet } from 'viem/chains'
 import '@rainbow-me/rainbowkit/styles.css'
 import 'react-toastify/dist/ReactToastify.css'
+import { ToastContainer } from 'react-toastify'
 
 import './main.css'
 import './main.scss'
 import App from './App.tsx'
-import { ToastContainer } from 'react-toastify'
 
 const config = getDefaultConfig({
   appName: 'Mocaverse',
